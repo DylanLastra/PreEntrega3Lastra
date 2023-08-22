@@ -31,6 +31,52 @@ header {
   background-color: aqua;
 }
 
+footer {
+  background-color: #100f0f;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: #eeeeee;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-galeria {
+  background-color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+.title-galeria h2 {
+  text-align: center;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-inner {
+  width: 60%;
+  align-self: center;
+  justify-self: center;
+  height: fit-content;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 800px;
+  width: 50%;
+}
+
 .caja-inicio {
   background-color: #718c76;
   text-align: center;
@@ -90,7 +136,7 @@ header {
 .cards__card-body h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .colaboraciones {
@@ -116,6 +162,7 @@ header {
 }
 .colaboraciones__samsung div h2 a {
   color: #5963cc;
+  text-decoration: none;
 }
 .colaboraciones__samsung img {
   align-items: center;
