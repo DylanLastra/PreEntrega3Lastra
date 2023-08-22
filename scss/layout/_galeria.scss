@@ -5,20 +5,22 @@
     h2{
         text-align: center;
         padding: 10px;
-        font-size: 28px;
-        font-weight:bold 
+        font-size: 40px;
+        font-weight:bold;
     }
     
 }
 .carousel{
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .carousel-inner{
     width: 60%;
     align-self: center;
     justify-self: center;
     height: fit-content;
+    padding: 10px;
 }
 .carousel-item img{
     object-fit: cover;
