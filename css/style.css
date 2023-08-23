@@ -154,14 +154,14 @@ footer p {
 }
 
 .carousel-inner {
-  width: 40%;
+  width: 60%;
   align-self: center;
   justify-self: center;
   padding: 10px;
 }
 
 .carousel-item img {
-  object-fit: cover;
+  object-fit: contain;
   height: 800px;
   width: 100%;
 }
@@ -185,16 +185,16 @@ footer p {
   grid-template-areas: "area1 area2 area3" "area4 none area5";
   background-color: #777b9f;
   align-content: center;
+  width: 100%;
 }
 .grilla-logos__grilla-logo {
-  padding: 15px;
-  gap: 15px;
+  padding: 5px;
+  gap: 20px;
+  width: 100%;
 }
 .grilla-logos__grilla-logo img {
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-  object-fit: cover;
+  height: 550px;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -420,6 +420,94 @@ footer p {
   .colaboraciones__samsung video {
     width: 70%;
     height: 500px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .about, .experiencia, .educacion {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    background-color: #718c76;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .sobre-mi, .experiencia-lista, .educacion-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+  .sobre-mi img, .experiencia-lista img, .educacion-lista img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  .sobre-mi div, .experiencia-lista div, .educacion-lista div {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1195px) {
+  .grilla-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .grilla-logos__grilla-logo {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+  }
+  .grilla-logos__grilla-logo img {
+    height: 550px;
+    object-fit: contain;
+    width: 100%;
+  }
+  .grilla-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .grilla-productos__grilla-producto {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+  }
+  .grilla-productos__grilla-producto img {
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
+  }
+  .grilla-films {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .grilla-films__grilla-film {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+  .grilla-films__grilla-film img {
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    object-fit: contain;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1200px) {

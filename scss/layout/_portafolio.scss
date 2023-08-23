@@ -18,15 +18,15 @@
     'area4 none area5';
     background-color: #777b9f;
     align-content: center;
+    width: 100%;
 
     &__grilla-logo{
-        padding: 15px;
-        gap: 15px;
+        padding: 5px;
+        gap: 20px;
+        width: 100%;
         img{
-            align-items: center;
-            justify-content: center;
-            height: 500px;
-            object-fit: cover;
+            height: 550px;
+            object-fit: contain;
             width: 100%;
         }
         

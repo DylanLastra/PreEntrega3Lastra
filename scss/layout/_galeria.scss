@@ -17,13 +17,13 @@
     align-items: center;
 }
 .carousel-inner{
-    width: 40%;
+    width: 60%;
     align-self: center;
     justify-self: center;
     padding: 10px;
 }
 .carousel-item img{
-    object-fit: cover;
+    object-fit: contain;
     height: 800px;
     width: 100%;
 }
