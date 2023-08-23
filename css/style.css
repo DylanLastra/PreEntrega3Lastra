@@ -148,12 +148,15 @@ footer p {
 
 .carousel {
   display: flex;
+  flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
 
 .carousel-inner {
+  display: flex;
+  flex-direction: column;
   width: 60%;
   align-self: center;
   justify-self: center;
