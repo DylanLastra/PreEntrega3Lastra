@@ -163,7 +163,7 @@ footer p {
 .carousel-item img {
   object-fit: cover;
   height: 800px;
-  width: 50%;
+  width: 100%;
 }
 
 .port {
@@ -398,6 +398,35 @@ footer p {
 .colaboraciones__samsung video {
   width: 60%;
   height: 800px;
+}
+
+@media screen and (max-width: 550px) {
+  .cajita {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards__card-body {
+    width: 100%;
+    background-color: #bd3e3e;
+    padding: 10px;
+    margin: 10px;
+  }
+  .colaboraciones__samsung video {
+    width: 70%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .samsung video {
+    width: 70%;
+    height: 500px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
